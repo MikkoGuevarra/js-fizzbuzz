@@ -12,12 +12,12 @@ var maxNumber = 100;
 for (var i = 1; i <= maxNumber; i++) {
     var currentNumber = i;
     // console.log(currentNumber);
-    if (currentNumber % 3 == 0) {
-        console.log("fizz " + i);
+    if (currentNumber % 3 == 0 && currentNumber % 5 == 0 ) {
+        console.log("FizzBuzz " + i);
     } else if (currentNumber % 5 == 0) {
         console.log("buzz " + i);
 
-    } else if (currentNumber % 3 == 0 && currentNumber % 5 == 0) {
-        console.log("FizzBuzz " + i);
+    } else if (currentNumber % 3 == 0) {
+        console.log("Fizz " + i);
     }
 }
