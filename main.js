@@ -19,5 +19,7 @@ for (var i = 1; i <= maxNumber; i++) {
 
     } else if (currentNumber % 3 == 0) {
         console.log("Fizz " + i);
+    } else {
+        console.log(currentNumber);
     }
 }
